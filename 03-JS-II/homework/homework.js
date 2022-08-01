@@ -216,12 +216,14 @@ function tablaM(num){
     for(var i = 0 ; i <= 10 ; i++){ 
         
       var tabla = i * num;
-      tablaArray.push(tabla);       
+      tablaArray.push(tabla); 
+             
       
-    }  
+    }   
    return tablaArray;
     
 }
+
 return tablaM(num);
   
 }
